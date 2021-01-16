@@ -1,0 +1,16 @@
+.bonuses-discount{
+    padding: 20px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+}
+.bonuses-discount__title {
+    font-size: 16px;
+}
+.bonuses-discount__notify {
+    color: #a1a1a1;
+}
+
+.btn-success_yellow {
+    background-color: yellow!important;
+    color: #000;
+}

@@ -1,0 +1,8 @@
+<?php
+$MESS['DKY_BONUSES_POPUP_CLIENT_FIELD_TITLE'] = "Клиент";
+$MESS['DKY_BONUSES_POPUP_BONUSES_FIELD_TITLE'] = "Бонусы";
+$MESS['DKY_BONUSES_POPUP_DESCRIPTION_FIELD_TITLE'] = "Примечание";
+$MESS['DKY_BONUSES_POPUP_SAVE_BTN_TITLE'] = "Сохранить";
+$MESS['DKY_BONUSES_POPUP_CANCEL_BTN_TITLE'] = "Отменить";
+$MESS['DKY_BONUSES_POPUP_TITLE'] = "Добавить бонусы";
+$MESS['DKY_BONUSES_FORM_NOTIFY'] = "Поля со * обязательны для заполнения";
