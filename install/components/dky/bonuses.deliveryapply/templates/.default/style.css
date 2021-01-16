@@ -1,0 +1,19 @@
+
+.dky-bonuses-delivery-not-applyed-block__apply-btn {
+    color: green;
+    text-decoration: underline;
+}
+
+.dky-bonuses-delivery-applyed-block__cancel-apply-btn {
+    color: red;
+    text-decoration: underline;
+}
+
+.dky-bonuses-delivery-not-applyed-block__text,
+.dky-bonuses-delivery-applyed-block__text{
+    font-weight: bold;
+}
+
+.dky-bonuses-delivery-applyed-block__text {
+    color: green;
+}

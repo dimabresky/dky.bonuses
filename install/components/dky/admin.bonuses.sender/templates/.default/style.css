@@ -1,0 +1,40 @@
+.create-bonuses-row-btn {
+    margin-bottom: 10px;
+}
+.bonuses-form__form-group {
+    margin: 10px 0;
+}
+
+.bonuses-form__form-group_text-center {
+    text-align: center;
+}
+
+.relative-block {
+    position: relative;
+}
+
+.hide {
+    display: none;
+}
+
+.find-users-block {
+    position: absolute;
+    top: 38px;
+    z-index: 10;
+    background-color: #fff;
+    width: 100%;
+    padding: 10px 5px;
+    box-sizing: border-box;
+    border: 1px solid #c6cdd3;
+}
+
+.find-users-block__user {
+    margin-bottom: 10px;
+    font-size: 14px;
+    cursor: pointer;
+    padding: 5px 0;
+}
+
+.find-users-block__user:hover {
+    background-color: #ddd;
+}
