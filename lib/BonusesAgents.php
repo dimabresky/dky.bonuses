@@ -26,10 +26,15 @@ class BonusesAgents {
 
         $arBonusesTableRows = BonusesTable::getList([
                     'filter' => [
-                        'USER_ID' => 1,
-                        '!=DISCOUNT_LEVEL' => Options::MAX_DISCOUNT_LEVEL
+                        [
+                            "LOGIC" => "OR",
+                            ['!=DISCOUNT_LEVEL' => Options::MAX_DISCOUNT_LEVEL],
+                            ['DISCOUNT_LEVEL' => null]
+                        ]
+                        
                     ]
                 ])->fetchAll();
+        
         if ($arBonusesTableRows) {
 
             $arUsersid = array_column($arBonusesTableRows, "USER_ID");
@@ -40,6 +45,7 @@ class BonusesAgents {
             if ($arUsersExists) {
                 $arUsersExists = array_column($arUsersExists, 'ID');
             }
+            
             foreach ($arBonusesTableRows as $arRow) {
 
                 if (in_array($arRow['USER_ID'], $arUsersExists)) {
